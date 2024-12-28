@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Form card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Form fields */
+input {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 10px rgba(37, 117, 252, 0.5);
+}
+
+input.invalid {
+    border-color: #e63946;
+    background: rgba(230, 57, 70, 0.1);
+}
+
+input.valid {
+    border-color: #2d6a4f;
+    background: rgba(45, 106, 79, 0.1);
+}
+
+/* Button styling */
+button {
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #1e3c72;
+    transform: scale(1.02);
+}
